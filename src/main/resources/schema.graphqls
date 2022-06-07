@@ -1,0 +1,21 @@
+type Query {
+    uzivatel(id: ID!): Uzivatel!
+    uzivatele: [Uzivatel]
+    prispevek(id: ID!): Prispevek!
+    prispevky:[Prispevek]
+    hello: String
+}
+
+type Uzivatel {
+    id: ID!
+    jmeno: String
+    prijmeni: String
+}
+
+
+type Prispevek {
+    id: ID!
+    autor: Uzivatel
+    titulek: String
+    obsah: String
+}
