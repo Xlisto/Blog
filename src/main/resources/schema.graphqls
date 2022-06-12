@@ -1,9 +1,17 @@
+# Root
 type Query {
     uzivatel(id: ID!): Uzivatel!
     uzivatele: [Uzivatel]
     prispevek(id: ID!): Prispevek!
     prispevky:[Prispevek]
-    hello: String
+    pozdrav: String
+}
+
+# Root
+type Mutation {
+    pridejUzivatele(jmeno: String!, prijmeni: String!):Uzivatel!
+    odeberUzivatele(id: ID!):Uzivatel!
+    upravUzivatele(id: ID!, jmeno: String!, prijmeni: String!):Uzivatel!
 }
 
 type Uzivatel {

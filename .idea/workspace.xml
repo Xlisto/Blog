@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f90e3c03-4ab9-4cd0-80fc-c30a983913e3" name="Changes" comment="Readed users and his blogs">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/itnetwork/ApplicationMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/itnetwork/Prispevek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/itnetwork/PrispevekResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/itnetwork/QueeryResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/itnetwork/Uzivatel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.graphqls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cz/itnetwork/MutationResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cz/itnetwork/SimulaceDatabaze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/itnetwork/PrispevekResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/itnetwork/PrispevekResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/itnetwork/QueeryResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/itnetwork/QueeryResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schema.graphqls" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +37,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ApplicationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cz.itnetwork.ApplicationMain" />
@@ -78,6 +72,14 @@
       <option name="presentableId" value="Default" />
       <updated>1654541286844</updated>
     </task>
+    <task id="LOCAL-00001" summary="Readed users and his blogs">
+      <created>1654567762888</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654567762888</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
