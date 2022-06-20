@@ -1,29 +1,32 @@
-# Root
 type Query {
+    pozdrav: String
     uzivatel(id: ID!): Uzivatel!
     uzivatele: [Uzivatel]
     prispevek(id: ID!): Prispevek!
     prispevky:[Prispevek]
-    pozdrav: String
 }
 
-# Root
 type Mutation {
     pridejUzivatele(jmeno: String!, prijmeni: String!):Uzivatel!
     odeberUzivatele(id: ID!):Uzivatel!
     upravUzivatele(id: ID!, jmeno: String!, prijmeni: String!):Uzivatel!
+
+    pridejPrispevek(titulek: String!, obsah: String, autor_ID: ID!):Prispevek!
+    odeberPrispevek(id:ID!):Prispevek!
+    upravPrispevek(id: ID!, titulek: String!, obsah:String): Prispevek!
 }
 
 type Uzivatel {
     id: ID!
     jmeno: String
     prijmeni: String
+    prispevek: [Prispevek]
 }
 
 
 type Prispevek {
     id: ID!
-    autor: Uzivatel
+    autor: Uzivatel!
     titulek: String
     obsah: String
 }

@@ -7,6 +7,7 @@ import java.util.List;
 public class SimulaceDatabaze {
 
     static private int idUzivatel = 4;
+    static private int idPrispevek = 3;
     static private final String author = "author-";
 
     static private final Uzivatel[] poleUzivatelu = {
@@ -28,5 +29,10 @@ public class SimulaceDatabaze {
     static public String noveIdUzivatel() {
         idUzivatel++;
         return author+idUzivatel;
+    }
+
+    static public String noveIdPrispevek() {
+        idPrispevek++;
+        return String.valueOf(idPrispevek);
     }
 }

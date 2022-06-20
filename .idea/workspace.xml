@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f90e3c03-4ab9-4cd0-80fc-c30a983913e3" name="Changes" comment="Readed users and his blogs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/itnetwork/MutationResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/itnetwork/SimulaceDatabaze.java" afterDir="false" />
+    <list default="true" id="f90e3c03-4ab9-4cd0-80fc-c30a983913e3" name="Changes" comment="Added mutation for type Uzivatel&#10;and added a class for simulated a database">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cz/itnetwork/UzivatelResolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/itnetwork/MutationResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/itnetwork/MutationResolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/itnetwork/PrispevekResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/itnetwork/PrispevekResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/itnetwork/QueeryResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/itnetwork/QueeryResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/itnetwork/SimulaceDatabaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/itnetwork/SimulaceDatabaze.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schema.graphqls" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +26,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cz/itnetwork/MutationResolver.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cz/itnetwork/Prispevek.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cz/itnetwork/PrispevekResolver.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cz/itnetwork/QueeryResolver.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cz/itnetwork/SimulaceDatabaze.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cz/itnetwork/Uzivatel.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/Application.properties" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/schema.graphqls" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -79,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654567762888</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added mutation for type Uzivatel">
+      <created>1655063433357</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655063433357</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,6 +113,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Readed users and his blogs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readed users and his blogs" />
+    <MESSAGE value="Added mutation for type Uzivatel" />
+    <MESSAGE value="Added mutation for type Uzivatel&#10;and added a class for simulated a database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added mutation for type Uzivatel&#10;and added a class for simulated a database" />
   </component>
 </project>

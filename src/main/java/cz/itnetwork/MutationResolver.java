@@ -14,11 +14,25 @@ public class MutationResolver implements GraphQLMutationResolver {
         return uzivatel;
     }
 
+    public Prispevek pridejPrispevek(String titulek, String obsah, String autorId){
+        Prispevek novyPrispevek = new Prispevek("pp",autorId,titulek,obsah);
+        SimulaceDatabaze.listPrispevku.add(novyPrispevek);
+        return novyPrispevek;
+    }
+
+
     public Uzivatel odeberUzivatele(String id) {
         Uzivatel smazanyUzivatel = SimulaceDatabaze.listUzivatelu.stream().filter(uzivatel -> uzivatel.getId().equals(id)).findFirst().orElse(null);
         if (smazanyUzivatel != null)
             SimulaceDatabaze.listUzivatelu.removeIf(uzivatel -> uzivatel.getId().equals(id));
         return smazanyUzivatel;
+    }
+
+    public Prispevek odeberPrispevek(String id) {
+        Prispevek smazanyPrispevek = SimulaceDatabaze.listPrispevku.stream().filter(prispevek -> prispevek.getId().equals(id)).findFirst().orElse(null);
+        if(smazanyPrispevek != null)
+            SimulaceDatabaze.listPrispevku.removeIf(prispevek -> prispevek.getId().equals(id));
+        return smazanyPrispevek;
     }
 
     public Uzivatel upravUzivatele(String id, String jmeno, String prijmeni) {
@@ -28,5 +42,14 @@ public class MutationResolver implements GraphQLMutationResolver {
             upravenyUzivatel.setPrijmeni(prijmeni);
         }
         return upravenyUzivatel;
+    }
+
+    public Prispevek upravPrispevek(String id, String titulek, String obsah){
+        Prispevek upravenyPrispevek = SimulaceDatabaze.listPrispevku.stream().filter(prispevek -> prispevek.getId().equals(id)).findFirst().orElse(null);
+        if(upravenyPrispevek != null) {
+            upravenyPrispevek.setTitulek(titulek);
+            upravenyPrispevek.setObsah(obsah);
+        }
+        return upravenyPrispevek;
     }
 }
