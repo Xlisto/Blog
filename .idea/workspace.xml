@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f90e3c03-4ab9-4cd0-80fc-c30a983913e3" name="Changes" comment="Added mutation for type Uzivatel,&#10;added a class for simulated a database,&#10;added a class for UzivatelResolver &#10;and update schema.graphqls.&#10;Added GraphiQL and change default endpoint - /graphql">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f90e3c03-4ab9-4cd0-80fc-c30a983913e3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657353482108</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added mutation for type Uzivatel,&#10;added a class for simulated a database,&#10;added a class for UzivatelResolver &#10;and update schema.graphqls.&#10;Added GraphiQL and change default endpoint - /graphql">
+      <created>1657354373742</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657354373742</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
