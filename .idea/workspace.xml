@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f90e3c03-4ab9-4cd0-80fc-c30a983913e3" name="Changes" comment="Added mutation for type Uzivatel,&#10;added a class for simulated a database,&#10;added a class for UzivatelResolver &#10;and update schema.graphqls">
+    <list default="true" id="f90e3c03-4ab9-4cd0-80fc-c30a983913e3" name="Changes" comment="Added mutation for type Uzivatel,&#10;added a class for simulated a database,&#10;added a class for UzivatelResolver &#10;and update schema.graphqls.&#10;Added GraphiQL and change default endpoint - /graphql">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/itnetwork/MutationResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/itnetwork/MutationResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/itnetwork/QueeryResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/itnetwork/QueeryResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +46,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Xlisto/Downloads/Blog-master&quot;
   }
 }</component>
   <component name="RunManager">
@@ -103,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655758468763</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added mutation for type Uzivatel,&#10;added a class for simulated a database,&#10;added a class for UzivatelResolver &#10;and update schema.graphqls.&#10;Added GraphiQL and change default endpoint - /graphql">
+      <created>1657353482108</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657353482108</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -133,6 +137,8 @@
     <MESSAGE value="Added mutation for type Uzivatel" />
     <MESSAGE value="Added mutation for type Uzivatel&#10;and added a class for simulated a database" />
     <MESSAGE value="Added mutation for type Uzivatel,&#10;added a class for simulated a database,&#10;added a class for UzivatelResolver &#10;and update schema.graphqls" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added mutation for type Uzivatel,&#10;added a class for simulated a database,&#10;added a class for UzivatelResolver &#10;and update schema.graphqls" />
+    <MESSAGE value="Added mutation for type Uzivatel,&#10;added a class for simulated a database,&#10;added a class for UzivatelResolver &#10;and update schema.graphqls.&#10;Added GraphiQL" />
+    <MESSAGE value="Added mutation for type Uzivatel,&#10;added a class for simulated a database,&#10;added a class for UzivatelResolver &#10;and update schema.graphqls.&#10;Added GraphiQL and change default endpoint - /graphql" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added mutation for type Uzivatel,&#10;added a class for simulated a database,&#10;added a class for UzivatelResolver &#10;and update schema.graphqls.&#10;Added GraphiQL and change default endpoint - /graphql" />
   </component>
 </project>
