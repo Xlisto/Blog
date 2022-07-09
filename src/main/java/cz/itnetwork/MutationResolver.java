@@ -15,7 +15,7 @@ public class MutationResolver implements GraphQLMutationResolver {
     }
 
     public Prispevek pridejPrispevek(String titulek, String obsah, String autorId){
-        Prispevek novyPrispevek = new Prispevek("pp",autorId,titulek,obsah);
+        Prispevek novyPrispevek = new Prispevek(SimulaceDatabaze.noveIdPrispevek(),autorId,titulek,obsah);
         SimulaceDatabaze.listPrispevku.add(novyPrispevek);
         return novyPrispevek;
     }

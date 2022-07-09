@@ -34,7 +34,7 @@ public class QueeryResolver implements GraphQLQueryResolver {
     }
 
     public String pozdrav() {
-        return  "ahoj";
+        return  "Ahoj, zdraví tě GraphQL";
     }
 
 }
